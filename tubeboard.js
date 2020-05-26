@@ -242,7 +242,7 @@ setInterval(timef,1000)
 //
 window.addEventListener('online',  function(){
   document.querySelector("label").style.color = "chartreuse";
-  document.querySelector("label").innerHTML = "20s Update";
+  document.querySelector("label").innerHTML = "Update: 20s";
 });
 window.addEventListener('offline', function(){
   document.querySelector("label").style.color = "red";
