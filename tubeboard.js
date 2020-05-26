@@ -62,7 +62,7 @@ var run = function(){
             var n = f.toLocaleTimeString();
             
             if(n[0] == "0"){
-              timefix = n.substr(0,8);
+              timefix = n.substr(0,6);
             }
             
             if(n[8] == "A" || n[9] == "A"){
