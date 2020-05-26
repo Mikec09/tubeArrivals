@@ -33,7 +33,7 @@ var runner;
 var rate = 20000;
 
 var run = function(){
-    document.querySelector('label').style.color = "chartreuse";
+    
     stations = chLine;
     clear();
     var s,l,d;
