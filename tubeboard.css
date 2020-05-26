@@ -1,0 +1,197 @@
+body{
+    background-image: url('https://assets.londonist.com/uploads/2017/03/i730/tram2.jpg');
+    margin-top: 50px;
+}
+
+table{
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+.container-1{
+    
+    background-color: black;
+    color: rgb(255, 236, 64);
+    width: 400px;
+    height: 160px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: 'Dot Matrix', arial;
+    border: 1px solid  rgb(255, 236, 64);
+    border-color: white;
+}
+.container-2{
+
+    background-color: black;
+    color: rgb(255, 236, 64);
+    width: 400px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: 'Dot Matrix', arial;
+    
+       
+}
+.container-3{
+
+    background-color: black;
+    color: rgb(255, 236, 64);
+    width: 400px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: 'Dot Matrix', arial;
+      
+}
+.contain-features{
+    border: 1px solid  white;
+    width: 400px;
+    margin: 0 auto;
+}
+
+p{
+    margin-top: 3px;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+    
+}
+.container-stn{
+    background-color:rgb(3, 3, 170);
+    color: white;
+    width: 400px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: 'Dot Matrix', arial;
+    border: 1px solid  white;
+    padding-top: 3px;;
+    
+}
+
+td{
+    padding-left: 2px;
+    display: inline-block;
+    padding-top: 2px;
+}
+
+#stn1{
+    width: 220px;
+    border-left: 20px black solid;
+}
+#stn2{
+    width: 220px;
+    border-left: 20px black solid;
+}
+#stn3{
+    width: 220px;
+    border-left: 20px black solid;
+}
+#stn4{
+    width: 220px;
+    border-left: 20px black solid;
+}
+#stn5{
+    width: 220px;
+    border-left: 20px black solid;
+}
+#t1{
+    padding-left: 60px;
+    text-align: right;
+    
+    display: inline;
+    
+}
+#t2{
+    padding-left: 60px;
+    text-align: right;
+    
+    display: inline;
+}
+#t3{
+    padding-left: 60px;
+    text-align: right;
+    
+    display: inline;
+}
+#t4{
+    padding-left: 60px;
+    text-align: right;
+    
+    display: inline;
+}
+#t5{
+    padding-left: 60px;
+    text-align: right;
+    
+    display: inline;
+}
+
+#board{
+    align-self: center;
+}
+
+select{
+    background-color: black;
+    color: white;
+}
+
+#btn{
+    margin-top: 4px;
+    height: 19px;
+}
+
+#tfl1{
+    background-color: brown;
+}
+#tfl2{
+    background-color:red;
+}
+#tfl3{
+    background-color: yellow;
+    color: black;
+}
+#tfl4{
+    background-color:green;
+}
+#tfl5{
+    background-color: white;
+    color: black;
+}
+#tfl6{
+    background-color:pink;
+    color: black;
+}
+#tfl7{
+    background-color: grey;
+}
+#tfl8{
+    background-color:purple;
+}
+#tfl9{
+    background-color:black;
+}
+#tfl10{
+    background-color: blue;
+}
+#tfl11{
+    background-color: turquoise;
+    color: black;
+}
+
+#btn{
+    background-color: chartreuse;
+    color: black;
+    border: 0;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    cursor: pointer;
+    width: 40px;
+}
+
+label{
+    font: 400 13.3333px Arial;
+    color: chartreuse;
+    text-align: right;
+    margin-left: 190px;
+   
+}
