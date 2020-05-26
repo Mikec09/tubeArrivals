@@ -60,10 +60,12 @@ var run = function(){
             
             var f = new Date();
             var n = f.toLocaleTimeString();
-            //console.log(n.substr(0,2));
-            console.log(n);
             
-            if((n[8] == "A" || n[9] == "A") && n[0] == "0"){
+            if(n[0] == "0"){
+              timefix = n.substr(0,8);
+            }
+            
+            if(n[8] == "A" || n[9] == "A"){
                 if(n.substr(0,8)[7]==" "){
                     timefix = "0"+ n.substr(0,7);
                 }else{
