@@ -59,37 +59,16 @@ var run = function(){
             //set time
             
             var f = new Date();
-            var n = f.toLocaleTimeString();
+            var n = f.toLocaleTimeString('en-US', { hour12: false });
+            timefix = n;
+            document.getElementById("time").innerHTML = timefix;
             
-            if(n[0] == "0"){
-              timefix = n.substr(0,6);
-            }
-            
-            if(n[8] == "A" || n[9] == "A"){
-                if(n.substr(0,8)[7]==" "){
-                    timefix = "0"+ n.substr(0,7);
-                }else{
-                    timefix = n.substr(0,8);
-                }
-                document.getElementById("time").innerHTML = timefix;
-            }else if(n.substr(0,2) == "12"){
-               timefix = n.substr(0,8);
-               document.getElementById("time").innerHTML = timefix;
-            }else{
-                if(n.substr(0,2)<10){
-                timefix = (parseInt(n.substr(0,2))+12).toString()+ n.substr(1,6);
-                document.getElementById("time").innerHTML = timefix;
-                }else{
-                  timefix = (parseInt(n.substr(0,2))+12).toString()+ n.substr(2,7);
-                  document.getElementById("time").innerHTML = timefix;
-                }
-            }
             var arr = [];
             for (let i = 0; i <= data.length-1; i++) {
                 arr.push([Math.ceil((data[i].timeToStation /60)-1),data[i].towards])
                 
             }
-            console.log(timefix);
+           
             
             var newArr;
             newArr = arr.sort(sortFunction);
