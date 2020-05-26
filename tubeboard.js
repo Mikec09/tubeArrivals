@@ -63,7 +63,7 @@ var run = function(){
             //console.log(n.substr(0,2));
             console.log(n);
             
-            if(n[8] == "A" || n[9] == "A"){
+            if((n[8] == "A" || n[9] == "A") && n[0] == "0"){
                 if(n.substr(0,8)[7]==" "){
                     timefix = "0"+ n.substr(0,7);
                 }else{
