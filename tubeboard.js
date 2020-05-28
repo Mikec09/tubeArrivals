@@ -63,10 +63,10 @@ var run = function(){
         d = "inbound";
         break
       case "Clockwise":
-        d = "inbound";
+        d = "outbound";
         break
       case "Anticlockwise":
-        d = "outbound";
+        d = "inbound";
         break
       default:
         console.log("unknown");    
